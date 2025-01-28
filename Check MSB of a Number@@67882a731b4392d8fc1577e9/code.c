@@ -3,7 +3,7 @@ int main()
 {
     int x;
     scanf("%d",&x);
-    if(x^0<0)
+    if(x^0<1)
     {
         printf("Set");
     }
