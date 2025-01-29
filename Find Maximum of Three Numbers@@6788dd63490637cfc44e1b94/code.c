@@ -9,7 +9,7 @@ int main()
     }
     else if(y>z)
     {
-        printf("%d",y)
+        printf("%d",y);
     }
     else
     {
