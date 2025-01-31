@@ -15,6 +15,5 @@ int main()
     {
         printf("Zero");
     }
-    printf("%s", welcome());
     return 0;
 }
