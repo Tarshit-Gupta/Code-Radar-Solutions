@@ -7,9 +7,13 @@ int main()
     {
         printf("Freezing");
     }
-    else
+    else if(temp>0)
     {
         printf("Abobe Freezing");
+    }
+    else
+    {
+        printf("Invalid");
     }
     return 0;
 }
