@@ -8,7 +8,7 @@ int main()
     {
         if(x%i==0)
         {
-            c==1;
+            c=1;
             break;
         }
     }
