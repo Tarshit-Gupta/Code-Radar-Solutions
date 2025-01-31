@@ -26,7 +26,7 @@ int main()
             printf("%f",x/y);
             break;
         }
-        default
+        default:
         {
             printf("Invalid Input");
             break;
