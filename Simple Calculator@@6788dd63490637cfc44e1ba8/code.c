@@ -27,13 +27,13 @@ int main()
                 printf("invalid");
             else
                 printf("%d",a/b);
+                break;
+        }
+        default:
+        {
+            printf("Invalid Input");
             break;
         }
-        // default:
-        // {
-        //     printf("Invalid Input");
-        //     break;
-        // }
     }
     return 0;
 }
