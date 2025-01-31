@@ -24,9 +24,9 @@ int main()
         }
         case '/':
         {   if(b==0)
-        printf("invalid");
-        else
-            printf("%d",a/b);
+                printf("invalid");
+            else
+                printf("%d",a/b);
             break;
         }
         // default:
