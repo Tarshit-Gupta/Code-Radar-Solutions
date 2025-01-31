@@ -26,11 +26,11 @@ int main()
             printf("%d",x/y);
             break;
         }
-        default:
-        {
-            printf("Invalid Input");
-            break;
-        }
+        // default:
+        // {
+        //     printf("Invalid Input");
+        //     break;
+        // }
     }
     return 0;
 }
