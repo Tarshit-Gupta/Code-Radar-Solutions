@@ -7,11 +7,11 @@ int main()
     {
         printf("Vowel");
     }
-    else if(ch>='a' && ch<='z' && ch!='a' ||ch!='e' || ch!='i' || ch!= 'o' || ch!='u')
+    else if(ch>='a' && ch<='z')
     {
         printf("Consonant");
     }
-    else if((int)ch>=0 && (int)ch<=9)
+    else if(ch>=48 && ch<=57)
     {
         printf("Digit");
     }
