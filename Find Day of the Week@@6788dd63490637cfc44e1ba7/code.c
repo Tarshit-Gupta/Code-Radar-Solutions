@@ -41,7 +41,5 @@ int main()
             break;
         }
     }
-
-    printf("%s", welcome());
     return 0;
 }
