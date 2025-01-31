@@ -15,5 +15,5 @@ int main()
     {
         printf("Equal");
     }
-\    return 0;
+    return 0;
 }
