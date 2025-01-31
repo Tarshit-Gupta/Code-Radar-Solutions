@@ -1,30 +1,32 @@
 #include <stdio.h>
 int main() 
 {
-    int x,y;
+    int a,b;
     char ch;
-    scanf("%d%d",&x,&y);
+    scanf("%d%d",&a,&b);
     scanf(" %c", &ch);
     switch(ch)
     {
         case '+':
         {
-            printf("%d",x+y);
+            printf("%d",a+b);
             break;
         }
         case '-':
         {
-            printf("%d",x-y);
+            printf("%d",a-b);
             break;
         }
         case '*':
         {
-            printf("%d",x*y);
+            printf("%d",a*b);
             break;
         }
         case '/':
-        {
-            printf("%d",x/y);
+        {   if(b==0)
+        printf("invalid");
+        else
+            printf("%d",a/b);
             break;
         }
         // default:
