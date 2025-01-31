@@ -3,9 +3,9 @@ int main()
 {
     int x;
     scanf("%d",&x);
+    int c==0;
     for(int i=1;i<=x;i++)
     {
-        int c=0;
         if(x%i==0)
         {
             c==1;
