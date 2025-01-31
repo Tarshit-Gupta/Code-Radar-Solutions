@@ -8,9 +8,8 @@ int main()
         int c=0;
         if(x%i==0)
         {
-            // printf("Prime");
-            // break;
             c==1;
+            break;
         }
         if(c==1)
         {
