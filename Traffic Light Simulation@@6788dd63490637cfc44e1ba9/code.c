@@ -2,7 +2,7 @@
 int main() 
 {
     char color;
-    scanf("%d",&color);
+    scanf("%c",&color);
     if(color=='R')
     {
         printf("Stop");
