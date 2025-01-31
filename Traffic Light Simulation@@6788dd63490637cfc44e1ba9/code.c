@@ -3,15 +3,15 @@ int main()
 {
     char color;
     scanf("%d",&color);
-    if(char=='R')
+    if(color=='R')
     {
         printf("Stop");
     }
-    else if(char=='G')
+    else if(color=='G')
     {
         printf("Go");
     }
-    else if(char=='Y')
+    else if(color=='Y')
     {
         printf("Slow Down");
     }
