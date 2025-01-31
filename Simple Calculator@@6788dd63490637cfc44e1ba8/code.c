@@ -2,9 +2,10 @@
 int main() 
 {
     int x,y;
-    char op;
-    scanf("%d %d %c",&x,&y,&op);
-    switch(op)
+    char ch;
+    scanf("%d%d",&a,&b);
+    scanf(" %c", &ch)
+    switch(ch)
     {
         case'+':
         {
