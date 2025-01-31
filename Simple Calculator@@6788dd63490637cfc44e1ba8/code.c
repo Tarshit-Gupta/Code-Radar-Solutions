@@ -9,22 +9,27 @@ int main()
         case'+':
         {
             printf("%d",x+y);
+            break;
         }
         case'-':
         {
             printf("%d",x-y);
+            break;
         }
         case'*':
         {
             printf("%d",x*y);
+            break;
         }
         case'/':
         {
             printf("%d",x/y);
+            break;
         }
         default
         {
             printf("Invalid Input");
+            break;
         }
     }
     return 0;
