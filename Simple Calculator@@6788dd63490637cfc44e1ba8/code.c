@@ -1,29 +1,29 @@
 #include <stdio.h>
 int main() 
 {
-    float x,y;
+    int x,y;
     char op;
-    scanf("%f %f  %c",&x,&y,&op);
+    scanf("%d %d  %c",&x,&y,&op);
     switch(op)
     {
         case'+':
         {
-            printf("%f",x+y);
+            printf("%d",x+y);
             break;
         }
         case'-':
         {
-            printf("%f",x-y);
+            printf("%d",x-y);
             break;
         }
         case'*':
         {
-            printf("%f",x*y);
+            printf("%d",x*y);
             break;
         }
         case'/':
         {
-            printf("%f",x/y);
+            printf("%d",x/y);
             break;
         }
         default:
