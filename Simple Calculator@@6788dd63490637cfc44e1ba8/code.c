@@ -3,7 +3,7 @@ int main()
 {
     float x,y;
     char ch;
-    scanf("%f%f",&x,&y);
+    scanf("%d%d",&x,&y);
     scanf(" %c", &ch);
     switch(ch)
     {
