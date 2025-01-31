@@ -27,6 +27,5 @@ int main()
             printf("Invalid Input");
         }
     }
-    printf("%s", welcome());
     return 0;
 }
