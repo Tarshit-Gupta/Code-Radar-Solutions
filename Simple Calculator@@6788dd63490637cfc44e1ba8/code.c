@@ -7,22 +7,22 @@ int main()
     scanf(" %c", &ch);
     switch(ch)
     {
-        case'+':
+        case '+':
         {
             printf("%d",x+y);
             break;
         }
-        case'-':
+        case '-':
         {
             printf("%d",x-y);
             break;
         }
-        case'*':
+        case '*':
         {
             printf("%d",x*y);
             break;
         }
-        case'/':
+        case '/':
         {
             printf("%d",x/y);
             break;
