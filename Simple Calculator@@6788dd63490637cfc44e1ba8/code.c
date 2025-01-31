@@ -24,7 +24,7 @@ int main()
         }
         case '/':
         {   if(b==0)
-                printf("invalid");
+                printf("error");
             else
             {
                 printf("%d",a/b);
@@ -33,7 +33,7 @@ int main()
         }
         default:
         {
-            printf("Invalid Input");
+            printf("error");
             break;
         }
     }
