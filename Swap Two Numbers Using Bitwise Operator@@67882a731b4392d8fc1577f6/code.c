@@ -3,9 +3,9 @@ int main()
 {
     int x,y;
     scanf("%d %d",&x,&y);
-    a=a^b;
-    b=b^a;
-    a=a^b;
+    x=x^y;
+    y=y^x;
+    x=x^y;
     printf("%d %d",x,y);
     return 0;
 }
