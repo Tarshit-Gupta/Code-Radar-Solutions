@@ -13,6 +13,7 @@ int main()
         {
             printf("Divisible by 3");
         }
+    }
     else 
     {
         if(x%5==0)
@@ -23,7 +24,6 @@ int main()
         {
             printf("Not Divisible");
         }
-    }
     }
     return 0;
 }
