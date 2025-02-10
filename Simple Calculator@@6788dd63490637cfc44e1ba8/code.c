@@ -24,11 +24,11 @@ int main()
         }
         case '/':
         {   
-            if(b==0)
-            {
-                printf("error");
-            }
-            else
+            // if(b==0)
+            // {
+            //     printf("error");
+            // }
+            // else
             {
                 printf("%d",a/b);
                 break;
