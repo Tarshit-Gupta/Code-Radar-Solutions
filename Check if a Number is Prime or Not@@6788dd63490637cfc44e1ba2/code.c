@@ -4,7 +4,7 @@ int main()
     int x;
     scanf("%d",&x);
     int c=0;
-    for(int i=2;i<=x;i++)
+    for(int i=2;i<=x/2;i++)
     {
         if(x%i==0)
         {
@@ -13,13 +13,13 @@ int main()
             break;
         }
     }
-    // if(c==0)
-    // {
-    //     printf("Prime");
-    // }
-    else
+    if(i==x/2+1)
     {
-        printf("Not Prime");
+        printf("Prime");
     }
+    // else
+    // {
+    //     printf("Not Prime");
+    // }
     return 0;
 }
