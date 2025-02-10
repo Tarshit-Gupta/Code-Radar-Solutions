@@ -9,14 +9,14 @@ int main()
         if(x%i==0)
         {
             printf("Not Prime");
-            c=1;
+            // c=1;
             break;
         }
     }
-    if(c==0)
-    {
-        printf("Prime");
-    }
+    // if(c==0)
+    // {
+    //     printf("Prime");
+    // }
     else
     {
         printf("Not Prime");
