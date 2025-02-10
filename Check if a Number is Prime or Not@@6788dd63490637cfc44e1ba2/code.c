@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() 
 {
-    int x;
+    int x,i;
     scanf("%d",&x);
     int c=0;
-    for(int i=2;i<=x/2;i++)
+    for(i=2;i<=x/2;i++)
     {
         if(x%i==0)
         {
