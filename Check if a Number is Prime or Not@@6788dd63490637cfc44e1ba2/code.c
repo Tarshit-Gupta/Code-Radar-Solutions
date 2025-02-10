@@ -8,8 +8,6 @@ int main()
     {
         if(x%i==0)
         {
-            printf("Not Prime");
-            // c=1;
             break;
         }
     }
@@ -17,9 +15,9 @@ int main()
     {
         printf("Prime");
     }
-    // else
-    // {
-    //     printf("Not Prime");
-    // }
+    else
+    {
+        printf("Not Prime");
+    }
     return 0;
 }
