@@ -24,15 +24,15 @@ int main()
         }
         case '/':
         {   
-            // if(b==0)
-            // {
-            //     printf("error");
-            // }
-            // else
-            // {
-            printf("%d",a/b);
-            break;
-            // }
+            if(b!=0)
+            {
+                printf("%d",a/b);
+                break;
+            }
+            else
+            {
+                printf("error");
+            }
         }
         default:
         {
