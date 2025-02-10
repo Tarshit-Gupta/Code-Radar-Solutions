@@ -29,10 +29,10 @@ int main()
             //     printf("error");
             // }
             // else
-            {
+            // {
                 printf("%d",a/b);
                 break;
-            }
+            // }
         }
         default:
         {
