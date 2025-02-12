@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    unsigned x;
     int x,count=0;
     scanf("%d",&x);
     while(x!=0)
