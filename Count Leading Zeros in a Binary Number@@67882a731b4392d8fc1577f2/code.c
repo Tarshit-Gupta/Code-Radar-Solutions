@@ -2,8 +2,8 @@
 int main()
 {
     unsigned x;
-    int x,count=0;
-    scanf("%d",&x);
+    int count=0;
+    scanf("%u",&x);
     while(x!=0)
     {
         count++;
