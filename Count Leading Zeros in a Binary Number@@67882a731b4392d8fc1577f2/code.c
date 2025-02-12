@@ -8,6 +8,6 @@ int main()
         count++;
         x>>=1;
     }
-    printf("%d",count);
+    printf("%d",32-count);
     return 0;
 }
