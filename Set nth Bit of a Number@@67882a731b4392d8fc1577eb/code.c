@@ -5,4 +5,5 @@ int main()
     scanf("%d %d",&a,&b);
     x=(1<<b)|a;
     printf("%d",x);
+    return 0;
 }
