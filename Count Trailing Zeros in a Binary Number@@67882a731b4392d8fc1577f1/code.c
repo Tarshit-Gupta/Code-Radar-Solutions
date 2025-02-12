@@ -6,7 +6,7 @@ int main()
     while(a!=0)
     {
         count++;
-        a>>=1;
+        x>>=1;
     }
     printf("%d",32-count);
     return 0;
