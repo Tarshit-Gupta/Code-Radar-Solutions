@@ -12,7 +12,8 @@ int bubbleSort(int arr[], int n)
                 temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
-                swapped = 1; 
+                swapped = 1;
+            } 
         if (!swapped)
             break;
     }
@@ -22,6 +23,6 @@ void printArray(int arr[], int n)
     int i;
     for (i = 0; i < n; i++)
     {
-        printf("%d ", arr[i]);
+        printf("%d ",arr[i]);
     }
 }
