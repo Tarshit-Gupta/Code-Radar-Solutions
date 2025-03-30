@@ -18,6 +18,7 @@ int bubbleSort(int arr[], int n)
             break;
     }
 }
+}
 void printArray(int arr[], int n)
 {
     int i;
