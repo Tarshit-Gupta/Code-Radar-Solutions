@@ -1,4 +1,4 @@
-void bubbleSort(int arr[], int n)
+int bubbleSort(int arr[], int n)
 {
     int temp, i, j;
     int swapped; 
@@ -24,5 +24,4 @@ void printArray(int arr[], int n)
     {
         printf("%d ", arr[i]);
     }
-    printf("\n");
 }
